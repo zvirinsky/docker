@@ -38,4 +38,5 @@ Task Report Notes
 	
 ### With docker-compose:
   
-  * <img src="resources/2-0.png">
+  * result:
+	<img src="resources/2-0.png">
