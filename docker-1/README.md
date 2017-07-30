@@ -13,8 +13,6 @@ Using base docker image ***sbeliakou/centos:7.2***
     - Create Docker Image of ```Tomcat 7``` ([tomcat.Dockerfile](/tomcat.Dockerfile))
     - Create Docker Image (Data Volume) with [```hello world```](https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war) application for Tomcat ([application.Dockerfile](application.Dockerfile))
     - Run these Images so that [http://localhost/sample](http://localhost/sample) shows ```hello world``` page
-		<img src="resources/1-1.png">  
-		<img src="resources/1-2.png">  
 
     - ```Nginx``` container forwards http requests to ```Tomcat``` container; Only ```nginx``` container exposes port (80)
 2. With ```docker-compose```:
@@ -26,18 +24,18 @@ Using base docker image ***sbeliakou/centos:7.2***
 
 Task Report Notes
 ---
-###With Dockerfiles:   
+### With Dockerfiles:   
   * building images:  
-	<img src="resources/0-1.png">  
-	<img src="resources/0-2.png">  
-	<img src="resources/0-3.png">
+	<img src="resources/0-1.PNG">  
+	<img src="resources/0-2.PNG">  
+	<img src="resources/0-3.PNG">
 
   * running containers:  
-	<img src="resources/1-1.png">
+	<img src="resources/1-1.PNG">
   * result:  
   
-	<img src="resources/1-2.png">
+	<img src="resources/1-2.PNG">
 	
-###With docker-compose:
+### With docker-compose:
   
   * <img src="resources/2-0.png">
