@@ -54,6 +54,8 @@ Task Report Notes
   ```docker build -t docker-gradle -f gradle.Dockerfile . ```   
   <img src="resources/4-0.png">  
   
+  * Configuring a job to build [spring-boot application](https://spring.io/guides/gs/spring-boot/) with [Jenkinsfile](Jenkinsfile-build)
+  
   
   
   
