@@ -55,6 +55,8 @@ Task Report Notes
   <img src="resources/4-0.png">  
   
   * Configuring a job to build [spring-boot application](https://spring.io/guides/gs/spring-boot/) with [Jenkinsfile](Jenkinsfile-build)
+  <img src="resources/5-0.png">  
+  <img src="resources/5-1.png">
   
   
   
