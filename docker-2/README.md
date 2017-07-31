@@ -38,4 +38,22 @@ $ ansible-playbook playbook.yml
 ```
 
 ### Dockerized Zabbix
-[Solution](https://www.zabbix.org/wiki/Dockerized_Zabbix)
+[Solution](https://www.zabbix.org/wiki/Dockerized_Zabbix)  
+
+Task Report Notes
+---
+  
+  * Launching Jenkins from official image:  
+	docker run -d -p 8080:8080 -p 5000:5000 -v $PWD/jenkins_home:/var/jenkins_home --name=jenkins-master jenkins  
+  <img src="resources/2-0.PNG">  
+  
+  * Linking Docker Host as Jenkins slave:  
+  <img src="resources/3-0.PNG"> 
+  
+  * Creating custom gradle image with [gradle.Dockerfile](gradle.Dockerfile):  
+  docker build -t docker-gradle -f gradle.Dockerfile .  
+  <img src="resources/4-0.PNG">  
+  
+  
+  
+  
