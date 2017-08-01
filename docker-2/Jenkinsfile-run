@@ -14,3 +14,4 @@ node('docker_host') {
   stage ('run spring-boot app'){
     sh 'docker-compose -f docker-2/docker-compose.yml up -d'
   }
+}
