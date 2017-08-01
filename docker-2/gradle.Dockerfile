@@ -1,4 +1,4 @@
-FROM sbeliakou/centos
+FROM sbeliakou/centos:7.2
 MAINTAINER Zakhar Virinsky (zakhar_virinsky@epam.com)
 ENV GRADLE_VERSION 4.0.2
 ENV GRADLE_HOME /opt/gradle
