@@ -59,13 +59,16 @@ Task Report Notes
   <img src="resources/5-1.png">
 
   * Configuring a job to run just built Spring Boot app with docker-compose:  
-    - install Copy Artifact Plugin
-  <img src="resources/6-0.png">
+    - install Copy Artifact Plugin  
+
+    <img src="resources/6-0.png">
 
     - pipeline configuration:  
+
     <img src="resources/6-1.png">
 
     - jobs console output:  
+
     <img src="resources/6-2.png">  
     <img src="resources/6-3.png">  
 
