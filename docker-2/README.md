@@ -42,22 +42,21 @@ $ ansible-playbook playbook.yml
 
 Task Report Notes
 ---
-  
+
   * Launching Jenkins from official image:  
 	```docker run -d -p 8080:8080 -p 5000:5000 -v $PWD/jenkins_home:/var/jenkins_home --name=jenkins-master jenkins```  
   <img src="resources/2-0.png">  
-  
+
   * Linking Docker Host as Jenkins slave:  
-  <img src="resources/3-0.png"> 
-  
+  <img src="resources/3-0.png">
+
   * Creating custom gradle image with [gradle.Dockerfile](gradle.Dockerfile):  
   ```docker build -t docker-gradle -f gradle.Dockerfile . ```   
   <img src="resources/4-0.png">  
-  
+
   * Configuring a job to build [spring-boot application](https://spring.io/guides/gs/spring-boot/) with [Jenkinsfile](Jenkinsfile-build)
   <img src="resources/5-0.png">  
   <img src="resources/5-1.png">
-  
-  
-  
+
+  * Configuring a job to run just built Spring Boot app with docker-compose:  
   

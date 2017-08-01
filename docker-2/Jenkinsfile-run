@@ -3,7 +3,7 @@ node('docker_host') {
     git branch: "zakhar_virinsky2", url: 'https://github.com/zvirinsky/docker.git'
   }
 
-  stage('trigger downstream job') {
+  stage('trigger build job') {
     build job: "build-spring-boot-pipeline"
     step ([$class: 'CopyArtifact',
           projectName: "build-spring-boot-pipeline",
